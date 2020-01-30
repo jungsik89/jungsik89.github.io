@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Dave Eum</title>
+    <!--Meta-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--BootstrapCDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <!--top menu-->
+  <body>
+        <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand pl-4 pr-4" style='background-color: rgb(96, 128, 143);' href="./index.html">Weather Data Visualization</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse offset-9" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./Max_Temp.html">Max Temp</a>
+                <a class="dropdown-item" href="./Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="./Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="./Windspeed.html">Windspeed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="./Data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Begin Landing Page -->
+  <!-- Container for the whole content (everything between the nav bar & copyright bar) -->
+  
+  
+  <div class="container" style='background-color: rgb(96, 128, 143); height:100%'>
+    <!-- This is the background page -->
+    <div class="row">
+      <div class="col-12 col-md-7 pad top bg-white m-2">
+        <div class="panel panel-default">
+          <div class="panel-body text-black">
+            <h2 class="pt-2 pb-2">Web Visualization</h2>
+            <hr>
+            <img src="images/Max Temperature vs City Latidute .png" style="width:65%;float: right;" 
+            alt="">
+              <p class = "text">Data Analysis</p>
+			  <p class = "text2">1st Trend </br> City Latitude vs Max Temperature graph visually shows us that countries with higher latitude had colder weather on the day of November 3rd (the day data was grabbed) and cities within the 0 latitude to negative latitude which is further south of the equator had more positive temperature in comparison. This data is a visual confirmation that after latitude is passed at 0 on southern and northern part of the equator is where you would actually start seeing more dramatic changes to the max temperature recorded.</p>
+			  <p class = "text3">2nd Trend </br> City latitude vs Humidity shows us that humidity level is fairly spread out amongst the cities with different latitude, however surprisingly cities with higher latitude is experiencing higher percentage of humidity as the scatter plot suggests higher saturation within the cities within 60 latitude points. </p>
+			  <p class = "text4">3rd Trend </br> City Latitude vs Wind Speed scatter plot shows us that wind speed tends to stay within 10-20mph in all cities in the analysis, most points saturating in latitudes that are between 0-70 points. Also the outliers suggest that countries within thin the opposite spectrum of latitude tend to have higher wind speed recorded. This may be more consistent with more data throughout the month.</p>
+	
+
+3rd Trent
+
+<br> 
+                </p>
+                <br>        
+          </div>
+        </div>
+      </div>
+      <!-- This is the left hand box with all the summary of images. -->
+
+      <div class="col-6 col-md-4 pad top bg-white m-2">
+          <div class="panel panel-default">
+              <div class="panel-body text-black">
+                <h2 class="pt-2 pb-2">Visualizations</h2>
+                <hr>
+                <div class="row" >
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="./Max_Temp.html"><img class = "img img-responsive plots" src="Fig1.png" style="width:100%" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="./Humidity.html"><img class = "img img-responsive plots" src="Fig2.png" style="width:100%" alt=""></a></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="./Cloudiness.html"><img class = "img img-responsive plots" src="Fig3.png" style="width:100%" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="./Windspeed.html"><img class = "img img-responsive plots" src="Fig4.png" style="width:100%" alt=""></a></div>
+                </div>
+                         
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+      
+      
+      <!-- Begin Copyright -->
+      <div class="container-fluid">
+        <div class="fixed-bottom pt-2 pb-2 m-0 d-flex justify-content-center bg-light">
+          <span>&copy; 2019 Dave Eum</span>
+        </div>
+      </div>
+  </body>
+</html>

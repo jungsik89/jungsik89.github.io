@@ -36,7 +36,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
               <a class="dropdown-item" href="./MaxTemp_page.html">Max Temp</a>
-              <a class="dropdown-item" href="./Cloudiness_page2.html">Cloudiness</a>
+              <a class="dropdown-item" href="./Cloudiness_page.html">Cloudiness</a>
               <a class="dropdown-item" href="./Humidity_page.html">Humidity</a>
               <a class="dropdown-item" href="./Windspeed_page.html">Windspeed</a>
             </div>
@@ -67,14 +67,11 @@
             <hr>
             <img src="visualizations/City Latitude vs Max Temperature.png" style="width:30%;float: left;" alt="landing-visualization">
             <br>
-            <p class="" id="landing-paragraph">The goal of this data analysis was to see how the weather changes as you get closer 
-                                                to the equator. To select a large sample size of the cities near the equator, first we 
-                                                assembled a dataset of 500 cities, we then extracted the data from OpenWeatherMap API.
-                                                After we assembled the dataset, we integrated Matplotlib to plot the various elements of 
-                                                weather vs latitude of those 500 cities. Four different elemental setting was chosen 
-                                                for this analysis: Humidity,Max Temp, Cloudiness, Wind Speed. This website provides 
-                                                the source data used for this analysis and I dive in visually and explain the analysis 
-                                                how the weather dramatically changes near the equator. 
+            <p class="" id="landing-paragraph">Cloudy skies throughout different latitude produce the most interesting graph. It seems
+                                              the cloudiness of the skies are happening mostly at certain latitude and temperature. We can
+                                              observe that in the extreme temperature difference, cities latitudes between zero to positive 80
+                                              latitude points. Two extreme temperatures are zero Farenheit and 100 Farenheit. You can also observe
+                                              smaller concentration in between these two extremities.
               </p>
              </div>
             </div>

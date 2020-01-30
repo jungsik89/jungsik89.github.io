@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Data Analysis - Dave Eum</title>
+  </head>
+  <body>
+    
+    <!--Nav Start-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand pl-4 pr-4" href="./index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+      <!--Nav Collapse-->
+        <div class="collapse navbar-collapse offset-9" id="navbar-content">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-home">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-comparison">
+              <a class="nav-link" href="./Comparison_page.html">Comparison</a>
+            </li>
+            <li class="nav-dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
+                <a class="dropdown-item" href="./MaxTemp_page.html">Max Temp</a>
+                <a class="dropdown-item" href="./Cloudiness_page.html">Cloudiness</a>
+                <a class="dropdown-item" href="./Humidity_page.html">Humidity</a>
+                <a class="dropdown-item" href="./Windspeed_page.html">Windspeed</a>
+              </div>
+            </li>
+            <li class="nav-data">
+              <a class="nav-link" href="./Data_page.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+ <!-- This is starting of landing page -->
+      <div class="" id="landing-page">
+        <div class="" id="landing-container">
+          <div class="">
+          <h1 class="" id="landing-header">Wind Speed</h1>
+          <br>
+          <hr>
+          <hr>
+          <img src="visualizations/City Latitude vs Wind speed.png" alt="landing-visualization">
+          <br>
+          <br>
+          <p class="" id="landing-paragraph"> Wind Speed scatter plot shows us that wind speed tends to stay within 10-20mph 
+                                              in all cities in the analysis, most points saturating in latitudes that are between 
+                                              0-70 points. Also the outliers suggest that countries within thin the opposite 
+                                              spectrum of latitude tend to have higher wind speed recorded. This may be more 
+                                              consistent with more data throughout the month.
+          </p>
+          
+          </div>
+        </div> 
+      </div>      
+          
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+         <!--Visualization-->
+        <div class="">
+          <div class="" id="landing-panel">
+            <h3 class="panel-header">Visualizations</h3>
+            <hr>
+            <div class="panel-row" >
+                <div class="" id="panel-row-section"><a href="./MaxTemp_page.html"><img class = "panel-row-image" id="panel" src="visualizations/City Latitude vs Max Temperature.png" alt="Max Temp"></a></div>
+                <div class="" id="panel-row-section"><a href="./Humidity_page.html"><img class = "panel-row-image" src="visualizations/City Latitude vs Humidity.png" alt="Humidity"></a></div>
+            </div>
+            <div class="panel-row">
+                <div class="" id="panel-row-section"><a href="./Cloudiness_page.html"><img class = "panel-row-image" src="visualizations/City Latitude vs Cloudiness.png" alt="Cloudiness"></a></div>
+                <div class="" id="panel-row-section"><a href="./Windspeed_page.html"><img class = "panel-row-image" src="visualizations/City Latitude vs Wind Speed.png" alt="Wind speed"></a></div>
+            </div>                           
+          </div>
+        </div>  
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
